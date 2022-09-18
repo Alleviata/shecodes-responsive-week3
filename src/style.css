@@ -99,3 +99,29 @@ p {
 .wrapper {
   margin-top: 100px !important;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  h3 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .img-home {
+    display: none;
+  }
+
+  p {
+    text-align: center;
+  }
+  .app-button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
